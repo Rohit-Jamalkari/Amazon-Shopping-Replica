@@ -141,7 +141,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
 }
 
 .hero-msg {
@@ -158,4 +157,23 @@ span {
 
 .hero-msg a {
   color: teal;
+}
+
+/*shop section*/
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(179, 179, 179, 0.603);
+}
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 23%;
+  background-color: white;
+}
+
+.box-img {
+  background-image: url("box1_image.jpg");
+  height: 300px;
 }
